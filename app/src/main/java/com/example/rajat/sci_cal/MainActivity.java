@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-            //    resultt.setText(String.valueOf(Math.tan(Math.toDegrees(Double.parseDouble(first.getText().toString())))));
+            //   resultt.setText(String.valueOf(Math.tan(Math.toDegrees(Double.parseDouble(first.getText().toString())))));
 
 
                 resultt.setText("= "+String.valueOf(Math.tan(Math.toRadians(Integer.parseInt(first.getText().toString())))));
